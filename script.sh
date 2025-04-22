@@ -21,15 +21,12 @@ echo "============="
 # Export
 export BUILD_USERNAME=Blazey66
 export BUILD_HOSTNAME=crave
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 echo "======= Export Done ======"
 
 # Set up build environment
 . build/envsetup.sh
 echo "====== Envsetup Done ======="
 
-#Lunch
-lunch lineage_mi439-userdebug
-echo "============="
-
-#Run to prepare our devices list
+#build
 brunch mi439
