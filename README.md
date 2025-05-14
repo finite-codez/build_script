@@ -6,5 +6,5 @@ curl https://raw.githubusercontent.com/blazey66/build_script/refs/heads/main/scr
 
 ### For crave
 ```
-crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/blazey66/build_script/refs/heads/main/script.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/blazey66/build_script/refs/heads/main/script.sh | bash"
 ```
