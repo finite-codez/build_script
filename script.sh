@@ -7,7 +7,7 @@ echo "Repo init success"
 echo "=================="
 
 #local_manifest
-git clone https://github.com/blazey66/local_manifest_clo.git -b vic .repo/local_manifests
+git clone https://github.com/Mi-Thorium/local_manifests.git -b master .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
