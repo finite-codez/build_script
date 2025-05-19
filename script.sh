@@ -21,7 +21,6 @@ echo "============="
 # Export
 export BUILD_USERNAME=Blazey66
 export BUILD_HOSTNAME=crave
-export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 echo "======= Export Done ======"
 
 # Set up build environment
@@ -29,4 +28,4 @@ echo "======= Export Done ======"
 echo "====== Envsetup Done ======="
 
 #build
-brunch Mi439_4_19
+brunch Mi439_4_19 user
