@@ -6,5 +6,5 @@ curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main
 
 ### For crave
 ```
-crave run --no-patch -- "https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main/script.sh | bash"
+crave run --no-patch -- "curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main/script.sh | bash"
 ```
