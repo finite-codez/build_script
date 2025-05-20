@@ -30,7 +30,7 @@ repo init --depth=1 --no-repo-verify -u https://github.com/finite-codez/fetch.gi
 success "Repo init success"
 
 # ========== Local Manifest Clone ==========
-git clone https://github.com/AsTechpro20/local_manifests_blossom.git -b lineage-22.1 .repo/local_manifests
+git clone https://github.com/finite-codez/local_manifests_blossom.git -b lineage-22.2 .repo/local_manifests
 success "Local manifest clone success"
 
 # ========== Sync ==========
@@ -58,7 +58,7 @@ if command -v brunch &>/dev/null; then
     brunch blossom user
 else
     error "brunch not found, falling back to lunch + make"
-    lunch blossom-user
+    lunch blossom
     make -j$(nproc) otapackage
 fi
 
