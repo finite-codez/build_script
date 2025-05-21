@@ -1,5 +1,8 @@
-# build_scripts
+# Srcipts for DEV
 
+## Slate OS
+
+### Build Script
 ```
 curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main/script.sh | bash
 ```
@@ -7,4 +10,17 @@ curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main
 ### For crave
 ```
 crave run --no-patch -- "curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main/script.sh | bash"
+```
+
+---
+## LuneageOS
+
+### Build Script
+```
+curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main/script2.sh | bash
+```
+
+### For crave
+```
+crave run --no-patch -- "curl https://raw.githubusercontent.com/finite-codez/build_script/refs/heads/main/script2.sh | bash"
 ```
