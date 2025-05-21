@@ -13,7 +13,7 @@ crave run --no-patch -- "curl https://raw.githubusercontent.com/finite-codez/bui
 ```
 
 ---
-## LuneageOS
+## LineageOS
 
 ### Build Script
 ```
